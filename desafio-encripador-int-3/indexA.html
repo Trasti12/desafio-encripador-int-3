@@ -1,0 +1,44 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styleA.css">
+    <title>Cryptoverse</title>
+</head>
+<body>
+        <video autoplay muted loop class="background_video">
+            <source src="assets/videoEstrellas.mp4" type="video/mp4">
+        </video>
+    <header>
+        <img class="logo" src="assets/CRYPTOVERSE.png" alt="Logo de Cryptoverse">
+    </header>
+    <main>
+        <section>
+            <textarea class="area_texto" cols="30" rows="10" id="areaTexto" placeholder="Ingrese el texto aquí"></textarea>
+            <div>
+                <h6 class="condicion">Sólo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="btn_encripta" onclick="botonEncriptar()">Encriptar</button>
+                <button class="btn_desencripta" onclick="botonDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <img class="luna" src="assets/luna-removebg-preview.png" alt="Imagen de la luna">
+            <textarea class="resultado_mensaje" id="resultadoMensaje" cols="20" rows="10"></textarea>
+            <div class="textos">
+                <h2 class="texto_uno" id="textoUno">Ningún mensaje fue encontrado</h2>
+                <p class="texto_dos" id="textoDos">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <div>
+                <button class="copiar" onclick="botonCopiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+<script src="scriptA.js"></script>
+</body>
+</html>
+
